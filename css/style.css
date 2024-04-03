@@ -47,3 +47,44 @@
 	width: 50px;
 }
 
+.content{
+	position: relative;
+	width: 300vw;
+	display: flex;
+	transition: 0.5s;
+}
+
+.content .box{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+	padding: 40px;
+}
+
+.content .box:nth-child(1){
+	background: linear-gradient(90deg,#43cea2,#185a9d);
+}
+
+.content .box:nth-child(2){
+	background: linear-gradient(90deg,#ff4e50,#f9d423);
+}
+
+.content .box:nth-child(3){
+	background: linear-gradient(90deg,#9d50bb,#6e48aa);
+}
+
+.tabs input:nth-child(1):checked ~ .content{
+	left: 0;
+}
+
+.tabs input:nth-child(2):checked ~ .content{
+	left: -100vw;
+}
+
+.tabs input:nth-child(3):checked ~ .content{
+	left: -200vw;
+}
