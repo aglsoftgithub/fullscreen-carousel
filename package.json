@@ -1,0 +1,25 @@
+{
+  "name": "fullscreen-carousel",
+  "version": "1.0.0",
+  "description": "A full screen live carousel with html, css and javascript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aglsoftgithub/fullscreen-carousel.git"
+  },
+  "keywords": [
+    "carousel",
+    "fullscreen",
+    "live",
+    "branding"
+  ],
+  "author": "Adrien Lagrange",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aglsoftgithub/fullscreen-carousel/issues"
+  },
+  "homepage": "https://github.com/aglsoftgithub/fullscreen-carousel#readme"
+}
